@@ -1,3 +1,5 @@
+numpy<2.0,>=1.23
+hdbscan
 Pillow
 opencv-python
 transformers
@@ -11,4 +13,4 @@ scipy
 timm
 open3d
 trimesh
-torch-scatter
+gradio
