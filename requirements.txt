@@ -14,3 +14,4 @@ timm
 open3d
 trimesh
 gradio
+spconv

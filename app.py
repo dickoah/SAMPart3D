@@ -147,11 +147,11 @@ Upload a GLB/OBJ mesh file and segment it using SAMPart3D."""
                     value=""
                 )
                 scale = gr.Slider(
-                    minimum=0.5,
+                    minimum=0.0,
                     maximum=2.0,
                     step=0.1,
                     value=1.0,
-                    label="Segmentation Scale"
+                    label="Segmentation Scale (0=fine parts, 2=coarse parts)"
                 )
         
         # Action buttons
